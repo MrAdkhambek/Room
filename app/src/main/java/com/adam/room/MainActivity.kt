@@ -5,10 +5,10 @@ import android.util.Log
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.adam.leo.LeoAdapter
+import com.adam.leo.setupAdapter
 import com.adam.room.db.AppDatabase
 import com.adam.room.db.table.PhoneData
-import com.adam.room.leo.LeoAdapter
-import com.adam.room.leo.setupAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.concurrent.Executors
 
